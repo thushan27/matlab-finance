@@ -1,3 +1,4 @@
+% Code provided by lecture notes. Important function used throughout the course for example, computing Knock-in/Asian options. 
 function [ S, times ] = generateBSPaths(T,S0,mu,sigma,nPaths,nSteps)
 dt = T/nSteps;
 logS0 = log( S0);
