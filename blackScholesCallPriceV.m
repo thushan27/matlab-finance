@@ -1,4 +1,4 @@
-% A function that computes the price of a call option using the Black-Scholes formula.
+% A function that computes the price of a call option using the Black-Scholes formula
 
 function [CallOption] = blackScholesCallPriceV(K,T,S,v,r)
 
