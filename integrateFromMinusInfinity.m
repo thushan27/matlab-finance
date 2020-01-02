@@ -1,3 +1,6 @@
+% Code provided by lecture notes
+% Integrates a function between -infinity to x using the rectangle rule
+
 function [ result ] = integrateFromMinusInfinity(f,x,N)
 a = 0;
 b = 1;
