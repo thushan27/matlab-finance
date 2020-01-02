@@ -1,3 +1,5 @@
+% Using a for loop to approximate an integral using the rectangle rule
+
 function [r ]= integrateNumericallyFor(f,a,b,N)
 h = (b -a )/ N ;
 current = 0;
