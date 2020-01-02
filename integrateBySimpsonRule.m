@@ -1,3 +1,5 @@
+% Function that integrates a function using the Simpsons rule
+
 function [r] = integrateBySimpsonRule( f, a, b, N )
 n = N-1;
 h = (b-a)/n;
