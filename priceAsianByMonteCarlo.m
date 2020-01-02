@@ -1,3 +1,9 @@
+% We wish to price an Asian option with maturity T and strike price.
+% The stock price follows the Black Scholes model with parameters S0, strike, µ, r, σ as usual and n
+% final days we wish to average out the stock price. We wish to write a function 
+% to price the option using Monte Carlo simulations with nPaths paths i.e generateBSPaths function. 
+% The function should also return an estimate of the error.
+
 function [price, errorEstimate]=priceAsianByMonteCarlo(...
  strike, T,...
  S0, r, sigma, ...
